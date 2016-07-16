@@ -178,6 +178,7 @@ static NSString *selectedCollectionViewCellID = @"HLSelectedCollectionViewCell";
         [UIView animateWithDuration:0.5 animations:^{
             weakSelectView.frame = CGRectMake(0, -weakSelectView.frame.size.height, weakSelectView.frame.size.width, weakSelectView.frame.size.height);
         }];
+        weakSelf.titleButton.selected = NO;
     };
 }
 
