@@ -16,7 +16,7 @@
 
 ###示例代码
 ```objective-c
- _selectImageView = [[HLSelectImageView alloc] initWithFrame:CGRectMake(0, 64, self.view.bounds.size.width, 200) MaxCount:3];
+    _selectImageView = [[HLSelectImageView alloc] initWithFrame:CGRectMake(0, 64, self.view.bounds.size.width, 200) MaxCount:3];
      //已选图片回调
     _selectImageView.selectPhotoFinishedAssets = ^(NSArray *photoAssets){
         NSLog(@"photoAssets----%@", photoAssets);
