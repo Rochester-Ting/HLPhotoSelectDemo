@@ -16,8 +16,9 @@
 
 ###示例代码
 ```objective-c
+     //可设置最大选中图片,默认为10
     _selectImageView = [[HLSelectImageView alloc] initWithFrame:CGRectMake(0, 64, self.view.bounds.size.width, 200) MaxCount:3];
-     //已选图片回调
+     //已选图片回调,可选择返回assets或images,images为高清图集合
     _selectImageView.selectPhotoFinishedAssets = ^(NSArray *photoAssets){
         NSLog(@"photoAssets----%@", photoAssets);
     };
@@ -25,7 +26,7 @@
         NSLog(@"images----%@", images);
     };
     
-    //点击item回调
+    //点击item回调,可通过此回调拿到图片展示大图
     _selectImageView.touchItemClickAssets = ^(NSArray *assets, NSInteger currentIndex){
         NSLog(@"assets----%@\n currentIndex----%ld", assets, currentIndex);
     };
