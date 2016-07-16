@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		121C3FD01D38960200E0428D /* HLSelectedCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 121C3FCE1D38960200E0428D /* HLSelectedCollectionViewCell.m */; };
+		121C3FD81D389C1B00E0428D /* HLAssetsGroupSelectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 121C3FD71D389C1B00E0428D /* HLAssetsGroupSelectView.m */; };
+		121C3FDA1D38DC9200E0428D /* arrow_down.png in Resources */ = {isa = PBXBuildFile; fileRef = 121C3FD91D38DC9200E0428D /* arrow_down.png */; };
+		121C3FDC1D38DCDD00E0428D /* arrow_on.png in Resources */ = {isa = PBXBuildFile; fileRef = 121C3FDB1D38DCDD00E0428D /* arrow_on.png */; };
+		121C3FDF1D38F87500E0428D /* HLAlbumLookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 121C3FDE1D38F87500E0428D /* HLAlbumLookViewController.m */; };
 		122B15FF1D37485D002ACACB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 122B15FE1D37485D002ACACB /* main.m */; };
 		122B16021D37485D002ACACB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 122B16011D37485D002ACACB /* AppDelegate.m */; };
 		122B16051D37485D002ACACB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 122B16041D37485D002ACACB /* ViewController.m */; };
@@ -15,6 +20,18 @@
 		122B160D1D37485D002ACACB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 122B160B1D37485D002ACACB /* LaunchScreen.storyboard */; };
 		122B16181D37485D002ACACB /* HLPhotoSelectDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 122B16171D37485D002ACACB /* HLPhotoSelectDemoTests.m */; };
 		122B16231D37485D002ACACB /* HLPhotoSelectDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 122B16221D37485D002ACACB /* HLPhotoSelectDemoUITests.m */; };
+		122B16371D3748F0002ACACB /* icon_camera@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 122B16361D3748F0002ACACB /* icon_camera@2x.png */; };
+		122B16391D3748F7002ACACB /* navSelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 122B16381D3748F7002ACACB /* navSelected@2x.png */; };
+		122B163B1D3748FF002ACACB /* navUnSelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 122B163A1D3748FF002ACACB /* navUnSelected@2x.png */; };
+		122B163D1D374906002ACACB /* selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 122B163C1D374906002ACACB /* selected@2x.png */; };
+		122B163F1D37490C002ACACB /* unSelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 122B163E1D37490C002ACACB /* unSelected@2x.png */; };
+		122B16451D374C52002ACACB /* hdsq_btn_tiezi_close@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 122B16441D374C52002ACACB /* hdsq_btn_tiezi_close@3x.png */; };
+		12E9D4D11D3786F40098925B /* HLSelectImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E9D4D01D3786F40098925B /* HLSelectImageView.m */; };
+		12E9D4D41D378E5D0098925B /* HLSelectImageCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E9D4D31D378E5D0098925B /* HLSelectImageCollectionCell.m */; };
+		12E9D4D61D37A07E0098925B /* hdsq_icon_tiezi_jiahao@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 12E9D4D51D37A07E0098925B /* hdsq_icon_tiezi_jiahao@3x.png */; };
+		12E9D4D91D37A2070098925B /* HLAlbumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E9D4D81D37A2070098925B /* HLAlbumViewController.m */; };
+		12E9D4DD1D37A23D0098925B /* HLAlbumCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E9D4DB1D37A23D0098925B /* HLAlbumCollectionViewCell.m */; };
+		12E9D4E21D37A2FE0098925B /* HLCameraCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E9D4E01D37A2FE0098925B /* HLCameraCollectionViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +52,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		121C3FCD1D38960200E0428D /* HLSelectedCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLSelectedCollectionViewCell.h; sourceTree = "<group>"; };
+		121C3FCE1D38960200E0428D /* HLSelectedCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLSelectedCollectionViewCell.m; sourceTree = "<group>"; };
+		121C3FD61D389C1B00E0428D /* HLAssetsGroupSelectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLAssetsGroupSelectView.h; sourceTree = "<group>"; };
+		121C3FD71D389C1B00E0428D /* HLAssetsGroupSelectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLAssetsGroupSelectView.m; sourceTree = "<group>"; };
+		121C3FD91D38DC9200E0428D /* arrow_down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow_down.png; sourceTree = "<group>"; };
+		121C3FDB1D38DCDD00E0428D /* arrow_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow_on.png; sourceTree = "<group>"; };
+		121C3FDD1D38F87500E0428D /* HLAlbumLookViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLAlbumLookViewController.h; sourceTree = "<group>"; };
+		121C3FDE1D38F87500E0428D /* HLAlbumLookViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLAlbumLookViewController.m; sourceTree = "<group>"; };
 		122B15FA1D37485D002ACACB /* HLPhotoSelectDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HLPhotoSelectDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		122B15FE1D37485D002ACACB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		122B16001D37485D002ACACB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +76,23 @@
 		122B161E1D37485D002ACACB /* HLPhotoSelectDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HLPhotoSelectDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		122B16221D37485D002ACACB /* HLPhotoSelectDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLPhotoSelectDemoUITests.m; sourceTree = "<group>"; };
 		122B16241D37485D002ACACB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		122B16361D3748F0002ACACB /* icon_camera@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_camera@2x.png"; sourceTree = "<group>"; };
+		122B16381D3748F7002ACACB /* navSelected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navSelected@2x.png"; sourceTree = "<group>"; };
+		122B163A1D3748FF002ACACB /* navUnSelected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navUnSelected@2x.png"; sourceTree = "<group>"; };
+		122B163C1D374906002ACACB /* selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "selected@2x.png"; sourceTree = "<group>"; };
+		122B163E1D37490C002ACACB /* unSelected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "unSelected@2x.png"; sourceTree = "<group>"; };
+		122B16441D374C52002ACACB /* hdsq_btn_tiezi_close@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hdsq_btn_tiezi_close@3x.png"; sourceTree = "<group>"; };
+		12E9D4CF1D3786F40098925B /* HLSelectImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLSelectImageView.h; sourceTree = "<group>"; };
+		12E9D4D01D3786F40098925B /* HLSelectImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLSelectImageView.m; sourceTree = "<group>"; };
+		12E9D4D21D378E5D0098925B /* HLSelectImageCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLSelectImageCollectionCell.h; sourceTree = "<group>"; };
+		12E9D4D31D378E5D0098925B /* HLSelectImageCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLSelectImageCollectionCell.m; sourceTree = "<group>"; };
+		12E9D4D51D37A07E0098925B /* hdsq_icon_tiezi_jiahao@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hdsq_icon_tiezi_jiahao@3x.png"; sourceTree = "<group>"; };
+		12E9D4D71D37A2070098925B /* HLAlbumViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLAlbumViewController.h; sourceTree = "<group>"; };
+		12E9D4D81D37A2070098925B /* HLAlbumViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLAlbumViewController.m; sourceTree = "<group>"; };
+		12E9D4DA1D37A23D0098925B /* HLAlbumCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLAlbumCollectionViewCell.h; sourceTree = "<group>"; };
+		12E9D4DB1D37A23D0098925B /* HLAlbumCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLAlbumCollectionViewCell.m; sourceTree = "<group>"; };
+		12E9D4DF1D37A2FE0098925B /* HLCameraCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLCameraCollectionViewCell.h; sourceTree = "<group>"; };
+		12E9D4E01D37A2FE0098925B /* HLCameraCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLCameraCollectionViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +143,8 @@
 		122B15FC1D37485D002ACACB /* HLPhotoSelectDemo */ = {
 			isa = PBXGroup;
 			children = (
+				122B16301D3748C2002ACACB /* PhotoSelect */,
+				122B16321D3748C2002ACACB /* PhotoSelectView */,
 				122B16001D37485D002ACACB /* AppDelegate.h */,
 				122B16011D37485D002ACACB /* AppDelegate.m */,
 				122B16031D37485D002ACACB /* ViewController.h */,
@@ -138,6 +182,61 @@
 				122B16241D37485D002ACACB /* Info.plist */,
 			);
 			path = HLPhotoSelectDemoUITests;
+			sourceTree = "<group>";
+		};
+		122B16301D3748C2002ACACB /* PhotoSelect */ = {
+			isa = PBXGroup;
+			children = (
+				122B16311D3748C2002ACACB /* images */,
+				12E9D4D71D37A2070098925B /* HLAlbumViewController.h */,
+				12E9D4D81D37A2070098925B /* HLAlbumViewController.m */,
+				12E9D4DA1D37A23D0098925B /* HLAlbumCollectionViewCell.h */,
+				12E9D4DB1D37A23D0098925B /* HLAlbumCollectionViewCell.m */,
+				12E9D4DF1D37A2FE0098925B /* HLCameraCollectionViewCell.h */,
+				12E9D4E01D37A2FE0098925B /* HLCameraCollectionViewCell.m */,
+				121C3FCD1D38960200E0428D /* HLSelectedCollectionViewCell.h */,
+				121C3FCE1D38960200E0428D /* HLSelectedCollectionViewCell.m */,
+				121C3FD61D389C1B00E0428D /* HLAssetsGroupSelectView.h */,
+				121C3FD71D389C1B00E0428D /* HLAssetsGroupSelectView.m */,
+				121C3FDD1D38F87500E0428D /* HLAlbumLookViewController.h */,
+				121C3FDE1D38F87500E0428D /* HLAlbumLookViewController.m */,
+			);
+			path = PhotoSelect;
+			sourceTree = "<group>";
+		};
+		122B16311D3748C2002ACACB /* images */ = {
+			isa = PBXGroup;
+			children = (
+				121C3FDB1D38DCDD00E0428D /* arrow_on.png */,
+				121C3FD91D38DC9200E0428D /* arrow_down.png */,
+				122B163E1D37490C002ACACB /* unSelected@2x.png */,
+				122B163C1D374906002ACACB /* selected@2x.png */,
+				122B163A1D3748FF002ACACB /* navUnSelected@2x.png */,
+				122B16381D3748F7002ACACB /* navSelected@2x.png */,
+				122B16361D3748F0002ACACB /* icon_camera@2x.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		122B16321D3748C2002ACACB /* PhotoSelectView */ = {
+			isa = PBXGroup;
+			children = (
+				122B16331D3748C2002ACACB /* images */,
+				12E9D4CF1D3786F40098925B /* HLSelectImageView.h */,
+				12E9D4D01D3786F40098925B /* HLSelectImageView.m */,
+				12E9D4D21D378E5D0098925B /* HLSelectImageCollectionCell.h */,
+				12E9D4D31D378E5D0098925B /* HLSelectImageCollectionCell.m */,
+			);
+			path = PhotoSelectView;
+			sourceTree = "<group>";
+		};
+		122B16331D3748C2002ACACB /* images */ = {
+			isa = PBXGroup;
+			children = (
+				12E9D4D51D37A07E0098925B /* hdsq_icon_tiezi_jiahao@3x.png */,
+				122B16441D374C52002ACACB /* hdsq_btn_tiezi_close@3x.png */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,7 +344,16 @@
 			files = (
 				122B160D1D37485D002ACACB /* LaunchScreen.storyboard in Resources */,
 				122B160A1D37485D002ACACB /* Assets.xcassets in Resources */,
+				122B163B1D3748FF002ACACB /* navUnSelected@2x.png in Resources */,
+				122B163F1D37490C002ACACB /* unSelected@2x.png in Resources */,
+				122B16451D374C52002ACACB /* hdsq_btn_tiezi_close@3x.png in Resources */,
+				121C3FDC1D38DCDD00E0428D /* arrow_on.png in Resources */,
+				122B16391D3748F7002ACACB /* navSelected@2x.png in Resources */,
+				122B163D1D374906002ACACB /* selected@2x.png in Resources */,
+				121C3FDA1D38DC9200E0428D /* arrow_down.png in Resources */,
 				122B16081D37485D002ACACB /* Main.storyboard in Resources */,
+				122B16371D3748F0002ACACB /* icon_camera@2x.png in Resources */,
+				12E9D4D61D37A07E0098925B /* hdsq_icon_tiezi_jiahao@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,9 +378,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12E9D4D11D3786F40098925B /* HLSelectImageView.m in Sources */,
+				121C3FDF1D38F87500E0428D /* HLAlbumLookViewController.m in Sources */,
 				122B16051D37485D002ACACB /* ViewController.m in Sources */,
+				121C3FD01D38960200E0428D /* HLSelectedCollectionViewCell.m in Sources */,
+				12E9D4D91D37A2070098925B /* HLAlbumViewController.m in Sources */,
+				12E9D4D41D378E5D0098925B /* HLSelectImageCollectionCell.m in Sources */,
+				12E9D4DD1D37A23D0098925B /* HLAlbumCollectionViewCell.m in Sources */,
+				12E9D4E21D37A2FE0098925B /* HLCameraCollectionViewCell.m in Sources */,
 				122B16021D37485D002ACACB /* AppDelegate.m in Sources */,
 				122B15FF1D37485D002ACACB /* main.m in Sources */,
+				121C3FD81D389C1B00E0428D /* HLAssetsGroupSelectView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +530,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HLPhotoSelectDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lenwang.photoselect.HLPhotoSelectDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -425,6 +542,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HLPhotoSelectDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lenwang.photoselect.HLPhotoSelectDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -496,6 +614,7 @@
 				122B16291D37485D002ACACB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		122B162A1D37485D002ACACB /* Build configuration list for PBXNativeTarget "HLPhotoSelectDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +623,7 @@
 				122B162C1D37485D002ACACB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		122B162D1D37485D002ACACB /* Build configuration list for PBXNativeTarget "HLPhotoSelectDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +632,7 @@
 				122B162F1D37485D002ACACB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
