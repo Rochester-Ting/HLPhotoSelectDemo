@@ -1,6 +1,9 @@
 ## HLPhotoSelectDemo
 一个选择图片的Demo.集成Class文件夹,导入HLSelectImageView类即可使用.
+
 选择图片功能和界面为独立的类,可自定义界面或功能.
+
+如需自定义界面,可导入HLAlbumViewController类来引用图片选择功能,通过selectAssetsFinished回调拿到已选的图片.
 
 ###功能:
 *  支持设定最大选中图片数量
